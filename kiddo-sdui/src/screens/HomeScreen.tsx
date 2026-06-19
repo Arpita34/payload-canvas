@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { View, Text, StyleSheet, Pressable, SafeAreaView, StatusBar } from 'react-native';
+import { View, Text, StyleSheet, Pressable, SafeAreaView, StatusBar, Alert } from 'react-native';
 import { FlashList, ListRenderItemInfo } from '@shopify/flash-list';
 import { Block } from '../types/schema';
 import { resolveBlock } from '../registry/componentRegistry';
@@ -21,6 +21,22 @@ export default function HomeScreen() {
   const setActiveCampaign = useCampaignStore((s) => s.setActiveCampaign);
   // Narrow selector — re-renders ONLY when count changes
   const cartCount = useCartStore((s) => s.count);
+
+  // Cart button feedback — reads the latest cart via getState() (no extra subscription).
+  const onCartPress = useCallback(() => {
+    const { items, count } = useCartStore.getState();
+    if (count === 0) {
+      Alert.alert('🛒 Cart', 'Your cart is empty. Tap “+ Add” on a product to get started!');
+      return;
+    }
+    const lines = Object.entries(items)
+      .map(([id, qty]) => `• ${id} × ${qty}`)
+      .join('\n');
+    Alert.alert(`🛒 Cart (${count} item${count > 1 ? 's' : ''})`, lines, [
+      { text: 'Clear', style: 'destructive', onPress: () => useCartStore.getState().clearCart() },
+      { text: 'Close', style: 'cancel' },
+    ]);
+  }, []);
 
   /**
    * Block renderer — the rendering engine.
@@ -60,7 +76,12 @@ export default function HomeScreen() {
           <Text style={styles.headerBrand}>kiddo</Text>
           <Text style={styles.headerTagline}>For little ones 💛</Text>
         </View>
-        <Pressable style={[styles.cartBtn, { backgroundColor: 'rgba(255,255,255,0.2)' }]}>
+        <Pressable
+          onPress={onCartPress}
+          style={[styles.cartBtn, { backgroundColor: 'rgba(255,255,255,0.2)' }]}
+          accessibilityRole="button"
+          accessibilityLabel={`Cart, ${cartCount} items`}
+        >
           <Text style={styles.cartIcon}>🛒</Text>
           {cartCount > 0 && (
             <View style={[styles.cartBadge, { backgroundColor: accent }]}>
