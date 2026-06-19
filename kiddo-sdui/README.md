@@ -182,13 +182,15 @@ kiddo-sdui/
 
 ## 📽️ Demo
 
-Engineering-proof clips (in [`demo/`](demo/) — click to play on GitHub):
+Engineering-proof clips (Google Drive — click to play):
 
 | Clip | Shows |
 |---|---|
-| [1 — Render Isolation](demo/1-render-isolation.mp4) | Add to cart on one card → only its `↻` counter + header badge update; 30+ blocks stay frozen |
-| [2 — Scroll Performance](demo/2-scroll-performance.mp4) | Nested horizontal carousel drag + vertical scroll, both smooth, momentum intact |
-| [3 — Resilience](demo/3-resilience.mp4) | 4 corrupt blocks in the payload (unknown type, missing id, null, duplicate id) — screen still renders perfectly, zero crash |
+| [▶ 1 — Render Isolation](https://drive.google.com/file/d/1j3VHvMxZPrMmJWtknhNFtPcQknxKk1LD/view?usp=sharing) | Add to cart on one card → only its `↻` counter + header badge update; 30+ blocks stay frozen |
+| [▶ 2 — Scroll Performance](https://drive.google.com/file/d/191hdc5nHAvFVQtZ6Mg9KGP9XvI3JL_CE/view?usp=sharing) | Nested horizontal carousel drag + vertical scroll, both smooth, momentum intact |
+| [▶ 3 — Resilience](https://drive.google.com/file/d/196qFTBzVCZop7yIr_nTicP_OLe8iKqzz/view?usp=sharing) | 4 corrupt blocks in the payload (unknown type, missing id, null, duplicate id) — screen still renders perfectly, zero crash |
+
+> The same clips are also committed under [`demo/`](demo/).
 
 ---
 
