@@ -1,3 +1,4 @@
+
 # Kiddo SDUI — Server-Driven UI Homepage Renderer
 
 A production-grade, configuration-driven React Native (Expo) homepage that renders **entirely** from a JSON payload. The server decides _what_ to show; the client decides _how_ to draw it — safely, fast, and without crashing on bad data.
@@ -179,6 +180,18 @@ kiddo-sdui/
 
 ---
 
+## 📽️ Demo
+
+Engineering-proof clips (in [`demo/`](demo/) — click to play on GitHub):
+
+| Clip | Shows |
+|---|---|
+| [1 — Render Isolation](demo/1-render-isolation.mp4) | Add to cart on one card → only its `↻` counter + header badge update; 30+ blocks stay frozen |
+| [2 — Scroll Performance](demo/2-scroll-performance.mp4) | Nested horizontal carousel drag + vertical scroll, both smooth, momentum intact |
+| [3 — Resilience](demo/3-resilience.mp4) | 4 corrupt blocks in the payload (unknown type, missing id, null, duplicate id) — screen still renders perfectly, zero crash |
+
+---
+
 ## Submission checklist
 
 - [x] Strict TypeScript, `npm run typecheck` clean
@@ -186,6 +199,4 @@ kiddo-sdui/
 - [x] 3 distinct live campaigns + base home
 - [x] Three-layer resilience (parse / registry / error boundary)
 - [x] Render-isolation instrumentation (`↻` badges)
-- [ ] **Record 3 demo videos** (one per campaign) + 1 render-isolation clip — attach to submission / link below
-
-> Demo videos: _add links here_
+- [x] Demo clips committed under [`demo/`](demo/)
