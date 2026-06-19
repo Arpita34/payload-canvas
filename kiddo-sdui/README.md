@@ -180,6 +180,21 @@ kiddo-sdui/
 
 ---
 
+## 📸 Screenshots
+
+All four live campaigns rendered from the same JSON engine — note the `↻` render-count badges (DEV-only) that prove render isolation.
+
+<p align="center">
+  <img src="assets/orange.png" width="200" alt="Home — Diwali Dhamaka" />
+  <img src="assets/yellow.png" width="200" alt="Back to School Mega-Sale" />
+  <img src="assets/blue.png" width="200" alt="Summer Playhouse Festival" />
+  <img src="assets/red.png" width="200" alt="Mystery Gift Carnival" />
+</p>
+
+> Home (Diwali) · Back to School (Lottie overlay) · Summer Playhouse (EVENT_BOOKING) · Mystery Gift Carnival (confetti)
+
+---
+
 ## 📽️ Demo
 
 Engineering-proof clips (Google Drive — click to play):
