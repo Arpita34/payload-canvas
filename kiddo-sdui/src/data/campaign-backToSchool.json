@@ -1,0 +1,163 @@
+{
+  "screenId": "home",
+  "version": 4,
+  "theme": {
+    "primary": "#F5C500",
+    "background": "#FFFDE7",
+    "text": "#1A1A2E",
+    "accent": "#1E5AA8",
+    "cardBg": "#FFFFFF",
+    "subtitleText": "#555566"
+  },
+  "campaign": "BACK_TO_SCHOOL",
+  "campaignOverlay": {
+    "type": "LOTTIE",
+    "url": "https://assets10.lottiefiles.com/packages/lf20_tnrzlN.json"
+  },
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "BANNER_HERO",
+      "data": {
+        "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&q=80",
+        "title": "Back to School Mega-Sale ✏️",
+        "subtitle": "Stationery, bags & lunchboxes — up to 60% off",
+        "ctaLabel": "Shop School",
+        "action": { "type": "DEEP_LINK", "payload": { "url": "/sale/back-to-school" } }
+      }
+    },
+    {
+      "id": "b2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "School Starter Pack",
+        "products": [
+          {
+            "id": "s101",
+            "name": "Colour Pencil Set 24pc",
+            "price": 89,
+            "mrp": 149,
+            "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80",
+            "badge": "40% OFF",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s101" } }
+          },
+          {
+            "id": "s102",
+            "name": "Dinosaur Lunchbox",
+            "price": 349,
+            "mrp": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1565620731358-e8c038abc8d1?w=400&q=80",
+            "badge": "Best Seller",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s102" } }
+          },
+          {
+            "id": "s103",
+            "name": "Kids Backpack 15L",
+            "price": 699,
+            "mrp": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s103" } }
+          },
+          {
+            "id": "s104",
+            "name": "Geometry Box Set",
+            "price": 120,
+            "mrp": 180,
+            "imageUrl": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=400&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s104" } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Lunchboxes & Bags 🎒",
+        "themeTag": "school",
+        "products": [
+          {
+            "id": "s201",
+            "name": "Space Theme Bag",
+            "price": 599,
+            "mrp": 799,
+            "imageUrl": "https://images.unsplash.com/photo-1586374579358-9d19d632b6df?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s201" } }
+          },
+          {
+            "id": "s202",
+            "name": "Superhero Tiffin",
+            "price": 299,
+            "mrp": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s202" } }
+          },
+          {
+            "id": "s203",
+            "name": "Princess Sling Bag",
+            "price": 449,
+            "mrp": 599,
+            "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s203" } }
+          },
+          {
+            "id": "s204",
+            "name": "Insulated Water Bottle",
+            "price": 249,
+            "mrp": 350,
+            "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s204" } }
+          },
+          {
+            "id": "s205",
+            "name": "Jungle Explorer Bag",
+            "price": 749,
+            "mrp": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s205" } }
+          },
+          {
+            "id": "s206",
+            "name": "Unicorn Pencil Pouch",
+            "price": 99,
+            "mrp": 149,
+            "imageUrl": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s206" } }
+          },
+          {
+            "id": "s207",
+            "name": "Rolling Trolley Bag",
+            "price": 1199,
+            "mrp": 1599,
+            "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s207" } }
+          },
+          {
+            "id": "s208",
+            "name": "Sandwich Container",
+            "price": 149,
+            "mrp": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s208" } }
+          },
+          {
+            "id": "s209",
+            "name": "Art & Craft Kit",
+            "price": 399,
+            "mrp": 549,
+            "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s209" } }
+          },
+          {
+            "id": "s210",
+            "name": "Sharpener Set",
+            "price": 49,
+            "mrp": 79,
+            "imageUrl": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "s210" } }
+          }
+        ]
+      }
+    }
+  ]
+}

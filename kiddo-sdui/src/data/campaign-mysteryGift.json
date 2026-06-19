@@ -1,0 +1,163 @@
+{
+  "screenId": "home",
+  "version": 4,
+  "theme": {
+    "primary": "#DC2626",
+    "background": "#FFF1F2",
+    "text": "#1A0A0A",
+    "accent": "#7C3AED",
+    "cardBg": "#FFFFFF",
+    "subtitleText": "#6B1B1B"
+  },
+  "campaign": "MYSTERY_GIFT_CARNIVAL",
+  "campaignOverlay": {
+    "type": "LOTTIE",
+    "url": "https://assets1.lottiefiles.com/packages/lf20_obhph3sh.json"
+  },
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "BANNER_HERO",
+      "data": {
+        "imageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80",
+        "title": "Mystery Gift Carnival 🎪",
+        "subtitle": "Scratch & Win! Use code GIFT50 at checkout",
+        "ctaLabel": "Claim Your Gift",
+        "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+      }
+    },
+    {
+      "id": "b2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Mystery Picks — Apply GIFT50",
+        "products": [
+          {
+            "id": "m101",
+            "name": "Mystery Toy Box 🎁",
+            "price": 499,
+            "mrp": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+            "badge": "Mystery",
+            "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+          },
+          {
+            "id": "m102",
+            "name": "Carnival Game Set",
+            "price": 349,
+            "mrp": 699,
+            "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80",
+            "badge": "50% OFF",
+            "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+          },
+          {
+            "id": "m103",
+            "name": "Surprise Puzzle Box",
+            "price": 249,
+            "mrp": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "m103" } }
+          },
+          {
+            "id": "m104",
+            "name": "Glitter Art Kit",
+            "price": 199,
+            "mrp": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1579965342575-16428a7c8881?w=400&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "m104" } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Carnival Favourites 🎡",
+        "themeTag": "carnival",
+        "products": [
+          {
+            "id": "c101",
+            "name": "Ring Toss Game",
+            "price": 299,
+            "mrp": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1603988492906-4fb0fb251cf8?w=300&q=80",
+            "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+          },
+          {
+            "id": "c102",
+            "name": "Spinning Top Set",
+            "price": 149,
+            "mrp": 249,
+            "imageUrl": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "c102" } }
+          },
+          {
+            "id": "c103",
+            "name": "Balloon Pump Kit",
+            "price": 99,
+            "mrp": 149,
+            "imageUrl": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "c103" } }
+          },
+          {
+            "id": "c104",
+            "name": "Clown Costume Set",
+            "price": 449,
+            "mrp": 699,
+            "imageUrl": "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=300&q=80",
+            "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+          },
+          {
+            "id": "c105",
+            "name": "Face Paint Kit",
+            "price": 199,
+            "mrp": 299,
+            "imageUrl": "https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "c105" } }
+          },
+          {
+            "id": "c106",
+            "name": "Magic Trick Box",
+            "price": 349,
+            "mrp": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1576828831022-ca41d3905fb7?w=300&q=80",
+            "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+          },
+          {
+            "id": "c107",
+            "name": "Jumbo Bubble Wand",
+            "price": 79,
+            "mrp": 129,
+            "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "c107" } }
+          },
+          {
+            "id": "c108",
+            "name": "Carnival Hat & Wig",
+            "price": 249,
+            "mrp": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1533659124865-d6072dc035e1?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "c108" } }
+          },
+          {
+            "id": "c109",
+            "name": "Juggling Ball Set",
+            "price": 179,
+            "mrp": 249,
+            "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "c109" } }
+          },
+          {
+            "id": "c110",
+            "name": "Piñata Smash Set",
+            "price": 299,
+            "mrp": 449,
+            "imageUrl": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=300&q=80",
+            "action": { "type": "APPLY_MYSTERY_GIFT_COUPON", "payload": { "code": "GIFT50" } }
+          }
+        ]
+      }
+    }
+  ]
+}

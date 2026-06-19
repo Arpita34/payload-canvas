@@ -1,0 +1,163 @@
+{
+  "screenId": "home",
+  "version": 4,
+  "theme": {
+    "primary": "#0891B2",
+    "background": "#E0F2FE",
+    "text": "#0C1445",
+    "accent": "#F97316",
+    "cardBg": "#FFFFFF",
+    "subtitleText": "#334155"
+  },
+  "campaign": "SUMMER_PLAYHOUSE",
+  "campaignOverlay": {
+    "type": "WEBP",
+    "url": "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=800&q=60&fm=webp"
+  },
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "BANNER_HERO",
+      "data": {
+        "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+        "title": "Summer Playhouse Festival 🌊",
+        "subtitle": "Splash pads, pool toys & beach gear",
+        "ctaLabel": "Explore Summer",
+        "action": { "type": "DEEP_LINK", "payload": { "url": "/sale/summer-playhouse" } }
+      }
+    },
+    {
+      "id": "b-booking",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Summer Experiences",
+        "products": [
+          {
+            "id": "e101",
+            "name": "Petting Zoo Tickets 🐾",
+            "price": 299,
+            "mrp": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=400&q=80",
+            "badge": "Book Now",
+            "action": { "type": "OPEN_BOOKING", "payload": { "eventId": "petting-zoo" } }
+          },
+          {
+            "id": "e102",
+            "name": "Splash Park Entry 🏊",
+            "price": 499,
+            "mrp": 699,
+            "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80",
+            "badge": "Limited",
+            "action": { "type": "OPEN_BOOKING", "payload": { "eventId": "splash-park" } }
+          },
+          {
+            "id": "e103",
+            "name": "Butterfly Garden Tour 🦋",
+            "price": 199,
+            "mrp": 299,
+            "imageUrl": "https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?w=400&q=80",
+            "action": { "type": "OPEN_BOOKING", "payload": { "eventId": "butterfly-garden" } }
+          },
+          {
+            "id": "e104",
+            "name": "Dino Adventure Park 🦕",
+            "price": 349,
+            "mrp": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&q=80",
+            "action": { "type": "OPEN_BOOKING", "payload": { "eventId": "dino-park" } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Pool & Beach Toys 🏖️",
+        "themeTag": "summer",
+        "products": [
+          {
+            "id": "w101",
+            "name": "Inflatable Pool Ring",
+            "price": 249,
+            "mrp": 349,
+            "imageUrl": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w101" } }
+          },
+          {
+            "id": "w102",
+            "name": "Water Gun Set",
+            "price": 179,
+            "mrp": 249,
+            "imageUrl": "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w102" } }
+          },
+          {
+            "id": "w103",
+            "name": "Beach Ball 3-Pack",
+            "price": 129,
+            "mrp": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w103" } }
+          },
+          {
+            "id": "w104",
+            "name": "Sand Castle Kit",
+            "price": 199,
+            "mrp": 299,
+            "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w104" } }
+          },
+          {
+            "id": "w105",
+            "name": "Kids Swim Goggles",
+            "price": 149,
+            "mrp": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w105" } }
+          },
+          {
+            "id": "w106",
+            "name": "Inflatable Flamingo",
+            "price": 399,
+            "mrp": 549,
+            "imageUrl": "https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w106" } }
+          },
+          {
+            "id": "w107",
+            "name": "Splash Mat",
+            "price": 299,
+            "mrp": 449,
+            "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w107" } }
+          },
+          {
+            "id": "w108",
+            "name": "Sun Protective Rashguard",
+            "price": 349,
+            "mrp": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w108" } }
+          },
+          {
+            "id": "w109",
+            "name": "Snorkel Set Kids",
+            "price": 449,
+            "mrp": 649,
+            "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w109" } }
+          },
+          {
+            "id": "w110",
+            "name": "Waterproof Sandals",
+            "price": 499,
+            "mrp": 699,
+            "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "w110" } }
+          }
+        ]
+      }
+    }
+  ]
+}

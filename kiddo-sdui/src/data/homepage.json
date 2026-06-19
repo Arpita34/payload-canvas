@@ -1,0 +1,183 @@
+{
+  "screenId": "home",
+  "version": 4,
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6",
+    "text": "#1A1A1A",
+    "accent": "#1E5AA8",
+    "cardBg": "#FFFFFF",
+    "subtitleText": "#666666"
+  },
+  "campaign": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "BANNER_HERO",
+      "data": {
+        "imageUrl": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&q=80",
+        "title": "Diwali Dhamaka 🎉",
+        "subtitle": "Up to 50% off on all Kids' Essentials",
+        "ctaLabel": "Shop Now",
+        "action": { "type": "DEEP_LINK", "payload": { "url": "/sale/diwali" } }
+      }
+    },
+    {
+      "id": "b2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Daily Essentials",
+        "products": [
+          {
+            "id": "p101",
+            "name": "Baby Wipes 72pc",
+            "price": 149,
+            "mrp": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?w=400&q=80",
+            "badge": "25% OFF",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p101" } }
+          },
+          {
+            "id": "p102",
+            "name": "Organic Baby Soap",
+            "price": 89,
+            "mrp": 120,
+            "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&q=80",
+            "badge": "New",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p102" } }
+          },
+          {
+            "id": "p103",
+            "name": "Diaper Rash Cream",
+            "price": 210,
+            "mrp": 260,
+            "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p103" } }
+          },
+          {
+            "id": "p104",
+            "name": "Baby Lotion 200ml",
+            "price": 175,
+            "mrp": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p104" } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Snacks under ₹99",
+        "themeTag": "snacks",
+        "products": [
+          {
+            "id": "p201",
+            "name": "Makhana Crunch",
+            "price": 79,
+            "mrp": 99,
+            "imageUrl": "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p201" } }
+          },
+          {
+            "id": "p202",
+            "name": "Banana Chips",
+            "price": 49,
+            "mrp": 65,
+            "imageUrl": "https://images.unsplash.com/photo-1571680322279-a226e6a4cc2a?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p202" } }
+          },
+          {
+            "id": "p203",
+            "name": "Mixed Nuts 100g",
+            "price": 89,
+            "mrp": 120,
+            "imageUrl": "https://images.unsplash.com/photo-1606914501449-5a96b6ce24ca?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p203" } }
+          },
+          {
+            "id": "p204",
+            "name": "Multigrain Crackers",
+            "price": 59,
+            "mrp": 80,
+            "imageUrl": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p204" } }
+          },
+          {
+            "id": "p205",
+            "name": "Date & Nut Bar",
+            "price": 69,
+            "mrp": 90,
+            "imageUrl": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p205" } }
+          },
+          {
+            "id": "p206",
+            "name": "Ragi Cookies",
+            "price": 55,
+            "mrp": 75,
+            "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p206" } }
+          },
+          {
+            "id": "p207",
+            "name": "Puffed Rice Snack",
+            "price": 39,
+            "mrp": 55,
+            "imageUrl": "https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p207" } }
+          },
+          {
+            "id": "p208",
+            "name": "Fruit Gummies",
+            "price": 45,
+            "mrp": 60,
+            "imageUrl": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p208" } }
+          },
+          {
+            "id": "p209",
+            "name": "Oat Granola Bar",
+            "price": 75,
+            "mrp": 99,
+            "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p209" } }
+          },
+          {
+            "id": "p210",
+            "name": "Popcorn Caramel",
+            "price": 65,
+            "mrp": 85,
+            "imageUrl": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p210" } }
+          },
+          {
+            "id": "p211",
+            "name": "Coconut Bites",
+            "price": 85,
+            "mrp": 110,
+            "imageUrl": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p211" } }
+          },
+          {
+            "id": "p212",
+            "name": "Strawberry Yogurt",
+            "price": 59,
+            "mrp": 79,
+            "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&q=80",
+            "action": { "type": "ADD_TO_CART", "payload": { "id": "p212" } }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b9-unknown",
+      "type": "NEW_COMPONENT_V2",
+      "data": {
+        "someNewField": "This block type is unknown and must be dropped silently",
+        "products": null
+      }
+    }
+  ]
+}
