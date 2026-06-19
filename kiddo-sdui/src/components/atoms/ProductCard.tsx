@@ -206,6 +206,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.3,
   },
   info: {
+    flex: 1, // fill the card's remaining height so the button can sit at the bottom
     padding: 10,
     gap: 4,
   },
@@ -229,7 +230,7 @@ const styles = StyleSheet.create({
     textDecorationLine: 'line-through',
   },
   addBtn: {
-    marginTop: 4,
+    marginTop: 'auto', // push to the bottom of the card (no floating gap below)
     borderWidth: 1.5,
     borderRadius: 8,
     paddingVertical: 5,
@@ -240,7 +241,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   counterRow: {
-    marginTop: 4,
+    marginTop: 'auto', // keep the counter aligned to the bottom like the Add button
     flexDirection: 'row',
     alignItems: 'center',
     borderWidth: 1.5,
