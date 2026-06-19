@@ -172,10 +172,20 @@
       }
     },
     {
+      "type": "PRODUCT_GRID_2X2",
+      "data": { "title": "CORRUPT: missing id — dropped at parse time" }
+    },
+    null,
+    {
+      "id": "b1",
+      "type": "BANNER_HERO",
+      "data": { "title": "CORRUPT: duplicate id b1 — dropped at parse time" }
+    },
+    {
       "id": "b9-unknown",
       "type": "NEW_COMPONENT_V2",
       "data": {
-        "someNewField": "This block type is unknown and must be dropped silently",
+        "someNewField": "Unknown type — passes parse, dropped at registry (render) time",
         "products": null
       }
     }
