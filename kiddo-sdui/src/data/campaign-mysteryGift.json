@@ -11,8 +11,8 @@
   },
   "campaign": "MYSTERY_GIFT_CARNIVAL",
   "campaignOverlay": {
-    "type": "LOTTIE",
-    "url": "https://assets1.lottiefiles.com/packages/lf20_obhph3sh.json"
+    "type": "FULL_SCREEN_OVERLAY",
+    "animation_url": "https://assets1.lottiefiles.com/packages/lf20_obhph3sh.json"
   },
   "blocks": [
     {

@@ -11,8 +11,9 @@
   },
   "campaign": "SUMMER_PLAYHOUSE",
   "campaignOverlay": {
-    "type": "WEBP",
-    "url": "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=800&q=60&fm=webp"
+    "type": "FULL_SCREEN_OVERLAY",
+    "animation_url": "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=800&q=60&fm=webp",
+    "media": "image"
   },
   "blocks": [
     {
@@ -28,10 +29,10 @@
     },
     {
       "id": "b-booking",
-      "type": "PRODUCT_GRID_2X2",
+      "type": "EVENT_BOOKING",
       "data": {
-        "title": "Summer Experiences",
-        "products": [
+        "title": "Summer Experiences 🎟",
+        "events": [
           {
             "id": "e101",
             "name": "Petting Zoo Tickets 🐾",

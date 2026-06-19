@@ -3,6 +3,7 @@ import { Block } from '../types/schema';
 import BannerHero from '../components/blocks/BannerHero';
 import ProductGrid2x2 from '../components/blocks/ProductGrid2x2';
 import DynamicCollection from '../components/blocks/DynamicCollection';
+import EventBooking from '../components/blocks/EventBooking';
 
 /** Every block component receives the same prop shape. */
 export interface BlockProps<D = unknown> {
@@ -19,6 +20,7 @@ const REGISTRY: Record<string, ComponentType<BlockProps<any>>> = {
   BANNER_HERO: BannerHero,
   PRODUCT_GRID_2X2: ProductGrid2x2,
   DYNAMIC_COLLECTION: DynamicCollection,
+  EVENT_BOOKING: EventBooking,
 };
 
 /**

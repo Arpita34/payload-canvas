@@ -45,8 +45,10 @@ function DynamicCollectionBase({ data, id }: BlockProps<DynamicCollData>) {
         renderItem={renderItem}
         keyExtractor={keyExtractor}
         showsHorizontalScrollIndicator={false}
+        nestedScrollEnabled
         contentContainerStyle={styles.listContent}
         // FlashList recycles views per item → memory stays flat during heavy horizontal scrolling
+        // nestedScrollEnabled → Android keeps the vertical master list's momentum intact
       />
     </View>
   );

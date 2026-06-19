@@ -11,8 +11,8 @@
   },
   "campaign": "BACK_TO_SCHOOL",
   "campaignOverlay": {
-    "type": "LOTTIE",
-    "url": "https://assets10.lottiefiles.com/packages/lf20_tnrzlN.json"
+    "type": "FULL_SCREEN_OVERLAY",
+    "animation_url": "https://assets10.lottiefiles.com/packages/lf20_tnrzlN.json"
   },
   "blocks": [
     {
